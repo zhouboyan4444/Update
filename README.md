@@ -23,3 +23,11 @@
 	• 第 2~n次提交到本分支   git  push 
 	• 提交到其他分支   一般会切换到相应的分支并进行提交。
 若提交到b分支，则输入命令：  git  push origin b
+echo "# Readme2.md" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:zhouboyan4444/Readme2.md.git
+git push -u origin main
+                
